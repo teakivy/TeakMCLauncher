@@ -1,0 +1,93 @@
+{
+  "_from": "msmc",
+  "_id": "msmc@3.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-QULnrX+GYw1VgW7nlSdcr9BpOZ8hwGyAH1eam9MBSVYMCRD+0jrIu5SGfXxRw3yEgwsDvjb7D1WInF4bT/+L4A==",
+  "_location": "/msmc",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "msmc",
+    "name": "msmc",
+    "escapedName": "msmc",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/msmc/-/msmc-3.0.6.tgz",
+  "_shasum": "084491c1621a5b2bae3b75d3c727dd4a70ad4ef8",
+  "_spec": "msmc",
+  "_where": "C:\\Users\\colli\\Desktop\\TeakMCLauncher\\TeakMCLauncher",
+  "author": {
+    "name": "Hanro50",
+    "url": "https://github.com/Hanro50"
+  },
+  "bugs": {
+    "url": "https://github.com/Hanro50/MSMC/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-fetch": "2.x"
+  },
+  "deprecated": false,
+  "description": "A bare bones login library for Minecraft based projects to authenticate individuals with a Microsoft account.",
+  "devDependencies": {
+    "@types/webpack": "^5.28.0"
+  },
+  "engines": {
+    "node": ">=10.19.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "tests.mjs",
+    "index.mjs",
+    "modules/backEnd.js",
+    "modules/mclc.js",
+    "modules/wrapper.js",
+    "modules/gui/electron.js",
+    "modules/gui/nwjs.js",
+    "modules/gui/raw.js"
+  ],
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/hanro50"
+    }
+  ],
+  "homepage": "https://github.com/Hanro50/MSMC/",
+  "keywords": [
+    "msmc",
+    "microsoft",
+    "oauth2",
+    "minecraft",
+    "login",
+    "mc",
+    "es6",
+    "commonjs"
+  ],
+  "license": "MIT",
+  "name": "msmc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hanro50/MSMC.git"
+  },
+  "scripts": {
+    "test:electron": "cd ./tests/electron\nnpm run start",
+    "test:nwjs": "cd ./tests/nwjs\nnpm run start",
+    "test:raw": "cd ./tests/raw\nnpm run start"
+  },
+  "types": "index.d.ts",
+  "version": "3.0.6"
+}
